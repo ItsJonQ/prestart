@@ -6,6 +6,15 @@
 
 Prestart is a tool can hook into `npm prestart` to help setup your Javascript development workflow. The main feature is that it will automatically check and install any missing dependencies for you.
 
+```
+🔑  Prestart
+
+   🔌  Check connection
+   📦  Install dependencies
+
+✨  Have fun developing!
+```
+
 ## Installation
 
 ```

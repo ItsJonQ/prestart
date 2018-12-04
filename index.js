@@ -13,6 +13,7 @@ const tasks = new Promise(resolve => {
   return isOnline({ timeout: 2500 }).then(online => {
     if (!online) {
       console.log("  ", "📦 ", "Install dependencies (Skipped)");
+      console.log("");
       return resolve();
     }
     console.log("  ", "📦 ", "Install dependencies");
@@ -30,6 +31,5 @@ const tasks = new Promise(resolve => {
 });
 
 tasks.then(() => {
-  console.log("");
   console.log("✨ ", "Have fun developing!");
 });

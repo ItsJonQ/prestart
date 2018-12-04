@@ -12,6 +12,8 @@ npm install --save-dev @helpscout/prestart
 
 ## Usage
 
+Add `@helpscout/prestart` to your `prestart` script in your project's `package.json`.
+
 ```
 "scripts": {
   ...

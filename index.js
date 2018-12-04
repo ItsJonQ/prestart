@@ -16,13 +16,16 @@ const tasks = new Promise(resolve => {
       return resolve();
     }
     console.log("  ", "📦 ", "Install dependencies");
+    console.log("");
     const options = {
       checkGitUrls: true,
       install: true,
       packageManager: "npm",
       verbose: false
     };
-    return checkDependencies(options).then(resolve);
+    return checkDependencies(options).then(() => {
+      resolve();
+    });
   });
 });
 

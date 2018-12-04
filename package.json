@@ -13,7 +13,6 @@
   "license": "MIT",
   "dependencies": {
     "check-dependencies": "1.1.0",
-    "is-online": "8.0.0",
-    "listr": "0.14.3"
+    "is-online": "8.0.0"
   }
 }

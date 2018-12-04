@@ -1,39 +1,32 @@
+#!/usr/bin/env node
+"use strict";
+
 const checkDependencies = require("check-dependencies");
 const isOnline = require("is-online");
-const Listr = require("listr");
 
 console.log("🔑 ", "Prestart");
 console.log("");
 
-const tasks = new Listr([
-  {
-    title: "🔌  Check connection",
-    task: ctx => {
-      return isOnline().catch(() => (ctx.isOnline = false));
-    }
-  },
-  {
-    title: "📦  Install dependencies",
-    enabled: ctx => (ctx.isOnline = true),
-    task: () => {
-      const options = {
-        checkGitUrls: true,
-        install: true,
-        packageManager: "npm",
-        verbose: false
-      };
+console.log("  ", "🔌 ", "Check connection");
 
-      return checkDependencies(options);
+const tasks = new Promise(resolve => {
+  return isOnline({ timeout: 2500 }).then(online => {
+    if (!online) {
+      console.log("  ", "📦 ", "Install dependencies (Skipped)");
+      return resolve();
     }
-  }
-]);
-
-tasks
-  .run()
-  .then(() => {
-    console.log("");
-    console.log("✨ Have fun developing :)");
-  })
-  .catch(err => {
-    console.error(err);
+    console.log("  ", "📦 ", "Install dependencies");
+    const options = {
+      checkGitUrls: true,
+      install: true,
+      packageManager: "npm",
+      verbose: false
+    };
+    return checkDependencies(options).then(resolve);
   });
+});
+
+tasks.then(() => {
+  console.log("");
+  console.log("✨ ", "Have fun developing!");
+});

@@ -1,0 +1,18 @@
+{
+  "name": "@helpscout/prestart",
+  "version": "0.0.1",
+  "private": false,
+  "description": "A tiny tool to make Javascript development a little more delightful",
+  "bin": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "exit 0"
+  },
+  "author": "Jon Quach <hello@jonquach.com> (https://jonquach.com)",
+  "license": "MIT",
+  "dependencies": {
+    "check-dependencies": "1.1.0",
+    "is-online": "8.0.0",
+    "listr": "0.14.3"
+  }
+}

@@ -17,7 +17,7 @@ Add `@helpscout/prestart` to your `prestart` script in your project's `package.j
 ```
 "scripts": {
   ...
-  "prestart": "@helpscout/prestart",
+  "prestart": "prestart",
   ...
 },
 ```

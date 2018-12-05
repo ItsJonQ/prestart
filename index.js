@@ -61,11 +61,13 @@ async function execPrestart() {
       console.log("");
       console.log(chalk.green("Success!"));
       console.log("✨ ", "Have fun developing!");
+      console.log("");
     })
     .catch(err => {
       console.log("");
       console.log(chalk.red("Error!"));
       console.error(err);
+      console.log("");
     });
 }
 

@@ -5,6 +5,12 @@
   "description": "A tiny tool to make Javascript development a little more delightful",
   "bin": "cli.js",
   "main": "index.js",
+  "files": [
+    "README.md",
+    "cli.js",
+    "index.js",
+    "LICENSE"
+  ],
   "scripts": {
     "start": "node cli.js",
     "test": "exit 0",

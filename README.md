@@ -7,11 +7,19 @@
 Prestart is a tool can hook into `npm prestart` to help setup your Javascript development workflow. The main feature is that it will automatically check and install any missing dependencies for you.
 
 ```
-🔑  Prestart
+PreStart
 
-   🔌  Check connection
-   📦  Install dependencies
+Project details
+--------------------------------------------
+node   version   8.11.4
+git    branch    master
+       email     name@email.com
+--------------------------------------------
 
+  ✔ [1/2] 🔌   Checking connection...
+  ✔ [2/2] 🚚   Fetching packages...
+
+Success!
 ✨  Have fun developing!
 ```
 

@@ -12,7 +12,7 @@
     "LICENSE"
   ],
   "scripts": {
-    "start": "node cli.js",
+    "start": "rm -rf node_modules/webpack && node cli.js",
     "test": "exit 0",
     "release": "npm version",
     "git:push": "git push --follow-tags",
@@ -21,7 +21,14 @@
   "author": "Jon Quach <hello@jonquach.com> (https://jonquach.com)",
   "license": "MIT",
   "dependencies": {
+    "chalk": "2.4.1",
     "check-dependencies": "1.1.0",
-    "is-online": "8.0.0"
+    "execa": "1.0.0",
+    "git-branch": "2.0.1",
+    "is-online": "8.0.0",
+    "listr": "0.14.3"
+  },
+  "devDependencies": {
+    "webpack": "4.27.0"
   }
 }

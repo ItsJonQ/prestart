@@ -3,10 +3,10 @@
   "version": "0.0.6",
   "private": false,
   "description": "A tiny tool to make Javascript development a little more delightful",
-  "bin": "index.js",
+  "bin": "cli.js",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node cli.js",
     "test": "exit 0",
     "release": "npm version",
     "git:push": "git push --follow-tags",

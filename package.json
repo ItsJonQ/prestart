@@ -1,6 +1,6 @@
 {
   "name": "@helpscout/prestart",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "private": false,
   "description": "A tiny tool to make Javascript development a little more delightful",
   "bin": "cli.js",

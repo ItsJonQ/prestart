@@ -1,6 +1,6 @@
 # 🔑 Prestart
 
-[![npm version](https://badge.fury.io/js/%40itsjonq%2Fprestart.svg)](https://badge.fury.io/js/%40itsjonq%2Fprestart)
+![npm (scoped)](https://img.shields.io/npm/v/@itsjonq/prestart)
 
 > A tiny tool to make Javascript development a little more delightful
 

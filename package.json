@@ -13,7 +13,7 @@
   ],
   "scripts": {
     "start": "rm -rf node_modules/webpack && node cli.js",
-    "test": "exit 0",
+    "test": "npm run start",
     "release": "npm version",
     "git:push": "git push --follow-tags",
     "postversion": "npm publish && npm run git:push"

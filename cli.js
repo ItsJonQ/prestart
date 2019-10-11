@@ -1,6 +1,6 @@
 #!/usr/bin/env node
-"use strict";
+'use strict'
 
-const preStart = require("./index");
+const preStart = require('./index')
 
-preStart.sync();
+preStart.sync()

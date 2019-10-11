@@ -1,5 +1,5 @@
 {
-  "name": "@helpscout/prestart",
+  "name": "@itsjonq/prestart",
   "version": "0.0.9",
   "private": false,
   "description": "A tiny tool to make Javascript development a little more delightful",
@@ -21,14 +21,15 @@
   "author": "Jon Quach <hello@jonquach.com> (https://jonquach.com)",
   "license": "MIT",
   "dependencies": {
-    "chalk": "2.4.1",
+    "chalk": "2.4.2",
     "check-dependencies": "1.1.0",
-    "execa": "1.0.0",
+    "execa": "2.0.0",
     "git-branch": "2.0.1",
-    "is-online": "8.0.0",
+    "has-yarn": "2.1.0",
+    "is-online": "8.2.0",
     "listr": "0.14.3"
   },
   "devDependencies": {
-    "webpack": "4.27.0"
+    "webpack": "4.41.0"
   }
 }

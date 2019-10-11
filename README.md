@@ -1,6 +1,6 @@
 # 🔑 Prestart
 
-[![npm version](https://badge.fury.io/js/%40helpscout%2Fprestart.svg)](https://badge.fury.io/js/%40helpscout%2Fprestart)
+[![npm version](https://badge.fury.io/js/%40itsjonq%2Fprestart.svg)](https://badge.fury.io/js/%40itsjonq%2Fprestart)
 
 > A tiny tool to make Javascript development a little more delightful
 
@@ -26,12 +26,12 @@ Success!
 ## Installation
 
 ```
-npm install --save-dev @helpscout/prestart
+npm install --save-dev @itsjonq/prestart
 ```
 
 ## Usage
 
-Add `@helpscout/prestart` to your `prestart` script in your project's `package.json`.
+Add `@itsjonq/prestart` to your `prestart` script in your project's `package.json`.
 
 ```
 "scripts": {

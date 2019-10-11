@@ -1,6 +1,6 @@
 {
   "name": "@itsjonq/prestart",
-  "version": "0.0.9",
+  "version": "1.0.0",
   "private": false,
   "description": "A tiny tool to make Javascript development a little more delightful",
   "bin": "cli.js",

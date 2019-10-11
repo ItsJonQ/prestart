@@ -11,7 +11,7 @@ PreStart
 
 Project details
 --------------------------------------------
-node   version   8.11.4
+node   version   12.9.1
 git    branch    master
        email     name@email.com
 --------------------------------------------

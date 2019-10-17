@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 'use strict';
 
-import { sync } from './index';
+const { sync } = require('./index');
 
 sync();
